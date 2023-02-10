@@ -6,6 +6,8 @@
     font-style: oblique;
 }
 
+
+
 /* header {
     display: inline-block;
 } */
@@ -14,6 +16,10 @@
     position: relative;
     top: 5%; left: 10%;
 } */
+/*Me salia el scroll horizontal aunque ocupaba todo el espacio de mi pantalla, por lo que use la propiedad de abajo*/
+body{
+    overflow-x: hidden;
+ }
 h1 {
     
     font-size: 40px;
@@ -54,8 +60,11 @@ a{
 h2 {
     text-align: center;
     border: 3px solid #000000;
-    position: relative;
-    
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.6;
     
 }
 
@@ -80,4 +89,16 @@ p {
     display: inline;
     position:relative;
     top: 20px; left: 25%;
+}
+
+.imagenes {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+.imagenes img {
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
 }
