@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+/* header {
+    display: inline-block;
+} */
+
+/* .seccion1 {
+    position: relative;
+    top: 5%; left: 10%;
+} */
+h1 {
+    
+    font-size: 40px;
+    display: inline;
+}
+
+.imagen {
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    height: 450px;
+}
+
+nav {
+    
+    display: inline-block;
+    position: absolute;
+    top: 10%; left: 83%;
+}
+a{
+    color: white;
+    background-color: #155fb3;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 3px;
+}
+
+
+/*Termino la mitad aca arriba*/
+/* main {
+    display: inline-block;
+    
+} */
+.seccion2 {
+    position: relative;
+    
+}
+h2 {
+    text-align: center;
+    border: 3px solid #000000;
+    position: relative;
+    
+    
+}
+
+article {
+    margin: 20px;
+    display: inline;
+    position:relative;
+    top: 20px; left: 25%;
+}
+.logo {
+    width: 300px;
+    display: inline;
+    position: absolute;
+}
+
+p {
+    width: 70%;
+}
+
+.contacto {
+    margin: 20px;
+    display: inline;
+    position:relative;
+    top: 20px; left: 25%;
+}
