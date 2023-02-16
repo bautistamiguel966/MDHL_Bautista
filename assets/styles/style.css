@@ -6,12 +6,16 @@
 }
 
 header {
-    height: 420px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    /* height: auto; */
     
 }
 .seccion1 {
     height: 380px;
     background-color: rgb(95, 79, 158);
+    
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -28,17 +32,29 @@ h1 {
     
 }
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0vh,2vh);
     width: 100px;
     height: 100px;
+    
+}
+.figure-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .img-header {
     display: flex;
     justify-content: center;
+    order:4;
 }
 .imagen{
 
     height: 325px;
     width: 100%;
+    
 }
 
 nav {
@@ -46,9 +62,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    transform: translate(-3vh,-47vh);
+    /* transform: translate(-3vh,-47vh); */
     gap: 7px;
-    order: 1;
+    order:3;
+    
     
 }
 
@@ -107,13 +124,23 @@ nav a:hover {
 }
 
 /*Estos articulos son de about*/
+.seccion3-about {
+    height: 450px;
+    background-color: rgb(95, 79, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
 .articulo4, .articulo5, .articulo6{
     border: 2px solid rgb(150, 36, 36);
     background-color: #555353;
-    width: 500px;
+    width: 800px;
     color: #ffffff;
     text-align: center;
 }
+
 
 .img-4{
     width: 250px;
@@ -156,7 +183,7 @@ nav a:hover {
 }
 
 .seccion3-calendario{
-    height: 700px;
+    height: auto;
     background-color: rgb(95, 79, 158);
     display: flex;
     flex-direction: column;
@@ -202,6 +229,127 @@ tr:hover {
     flex-direction: column;
     align-items: flex-start;
 }
+
+.active{
+    background-color: rgb(40, 114, 72);
+    color: aliceblue;
+}
+
+/*Mapas*/
+section article iframe {
+    width:200px;
+    height:200px;
+    padding: 5px;
+    
+}
+
+.seccion5-calendario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.seccion5-calendario article{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Formulario*/
+.seccion3-registro{
+    height: auto;
+    /* background-color: rgb(95, 79, 158); */
+    background-image: url(/assets/img/hockey_3.jpg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* .seccion3-registro form{
+    display: flex;
+    flex-direction: row;
+} */
+
+form {
+    background-color: bisque;
+    /* background-color: #3AB9E2;
+    background-color: rgb(54, 204, 119); */
+    padding: 2.5em;
+    margin: 1em;
+    font-size: 1.6em;
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    border: 2px solid rgb(150, 36, 36);
+    width: 70%;
+    /* align-self: center; */
+    /* color: #ffffff; */
+    
+}
+
+/* .seccion3-registro form legend{
+    display: flex;
+    flex-direction: row;
+} */
+
+/*Legends*/
+
+.legend-1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #555353;  */
+    
+}
+
+.personales1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.personales2{
+    
+    justify-content: flex-end;
+}
+
+input {
+    padding: 3px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 14px;
+    font-weight: 600;
+    /* width: 500px; */
+}
+
+button {
+    
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#7468ce;
+    border-radius: 5px;
+    font: inherit;
+    /* color: #ffffff; */
+    
+    
+}
+
+button:hover {
+    background-color: rgb(83, 32, 116);
+    box-shadow: 3px 3px 5px grey;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* input[type="radio"]{
+    
+
+} */
 
 
 
